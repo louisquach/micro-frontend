@@ -1,9 +1,10 @@
 name: container-deploy
 
-on
+on:
   push:
     branches:
       - master
+      - main
     paths:
       - 'packages/container/**'
 
