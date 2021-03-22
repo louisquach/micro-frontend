@@ -5,10 +5,10 @@ const domain = process.env.NODE_PRODUCTION;
 const package = require('../package.json');
 
 const prodConfig = {
-    mode: 'production',
+    mode: "production",
     output: {
-        filename: '[name].[contenthash].js',
-        publicPath: '/container/latest/'
+        filename: "[name][contenthash].js",
+        publicPath: "/container/latest/"
     },
     plugins: [
         new FederationPlugin({

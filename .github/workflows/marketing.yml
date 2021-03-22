@@ -4,9 +4,8 @@ on:
   push:
     branches:
       - master
-      - main
-    paths:
-      - 'packages/marketing/**'
+    paths: 
+      - "packages/marketing/**"
 
 defaults:
   run:
